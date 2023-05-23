@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My tepmlate</title>
+    <style>
+        body{
+            width:100%;
+        }
+        .title {
+            display: inline-block;
+        }
+        .menu-icon {
+            float: right;
+            display: inline-block;
+        }
+        .menu-icon-line {
+          width: 35px;
+          height: 5px;
+          background-color: black;
+          margin: 6px 0;
+        }
+        .up-content {
+            width: 100%;
+        }
+        .up-content .title {
+            margin-left: 50%;
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+       <div class="title">
+            <h2>PURE MIX</h2>
+       </div>
+        <div class="menu-icon">
+            <div class="menu-icon-line"></div>
+            <div class="menu-icon-line"></div>
+            <div class="menu-icon-line"></div>
+        </div>
+    </div>
+    <div class="up-content">
+        <div class="title">
+            <h3>LOREM IPSUM DOLOR</h3>
+            <p>SIX HTML PAGES INCLUDED</p>
+        </div>
+    </div>
+    <div class="nav_menu">
+
+    </div>
+    <div class="down-content"></div>
+</body>
+</html>
